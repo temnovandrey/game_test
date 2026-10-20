@@ -84,6 +84,12 @@
         <Execute>
           <option name="pattern" value="python test_items.py" />
         </Execute>
+        <Execute>
+          <option name="pattern" value="del test_items.py 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del .commit_msg3.txt 2&gt;nul" />
+        </Execute>
       </list>
     </option>
   </component>

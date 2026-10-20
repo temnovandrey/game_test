@@ -396,6 +396,8 @@ def main():
                     elif gameover_buttons[2].clicked(mouse_pos):
                         # Сохраняем результат в БД
                         db.insert_score(player_name, game.player.score)
+                        game.game_over = False
+                        game.game_started = False
                         state = GameState.MENU
                         name_input.active = True
                         if game.sound_menu:
@@ -409,6 +411,8 @@ def main():
                             game.sound_menu.play()
                     elif event.key == pygame.K_ESCAPE:
                         db.insert_score(player_name, game.player.score)
+                        game.game_over = False
+                        game.game_started = False
                         state = GameState.MENU
                         name_input.text = player_name
                         name_input.active = True
@@ -426,6 +430,10 @@ def main():
         # --- Обновление ---
         if state == GameState.PLAYING:
             game.update()
+
+            # Проверка окончания игры
+            if game.game_over and state == GameState.PLAYING:
+                state = GameState.GAME_OVER
 
             # Обратный отсчёт перед игрой
             if countdown_active:

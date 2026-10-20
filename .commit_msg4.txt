@@ -1,0 +1,4 @@
+Fix: game over screen not responding to Enter/Escape
+
+- Add state transition to GAME_OVER when game ends
+- Reset game_over and game_started flags when returning to menu
