@@ -4,6 +4,7 @@
 """
 import pygame
 import random
+import math
 
 
 class Item:
@@ -71,7 +72,3 @@ class Item:
         self.y = y
         self.collected = False
         self.bob_timer = random.uniform(0, 6.28)
-
-
-# Импортируем math для анимации
-import math

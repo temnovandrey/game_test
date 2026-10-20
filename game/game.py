@@ -49,6 +49,9 @@ class Game:
         self.sound_lose = None
         self.sound_menu = None
         self.load_sounds()
+        
+        # Инициализация игры
+        self.init_game()
 
     def load_sounds(self):
         """Загружает звуковые эффекты и фоновую музыку."""

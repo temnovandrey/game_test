@@ -1,0 +1,4 @@
+Fix: items not spawning and math import error
+
+- Move import math to top of item.py
+- Call init_game() in Game.__init__ to spawn items and enemies

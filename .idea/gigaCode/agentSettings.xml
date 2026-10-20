@@ -60,6 +60,30 @@
         <Execute>
           <option name="pattern" value="git remote *" />
         </Execute>
+        <Execute>
+          <option name="pattern" value="git branch *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git push *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git fetch *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del .commit_msg.txt" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git push" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del .commit_msg2.txt 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="python -c &quot;from game.item import Item; i = Item(100, 100); print('Item created:', i.x, i.y, 'collected:', i.is_collected())&quot;" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="python test_items.py" />
+        </Execute>
       </list>
     </option>
   </component>
