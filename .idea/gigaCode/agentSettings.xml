@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GigaCodeAgentSettings">
+    <option name="autoApprovedCommands">
+      <list>
+        <Execute>
+          <option name="pattern" value="if not *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="mkdir &quot;D:\Документы\информатика\python\Программы Python\инжинириум\game&quot; &quot;D:\Документы\информатика\python\Программы Python\инжинириум\assets\sounds&quot; &quot;D:\Документы\информатика\python\Программы Python\инжинириум\assets\music&quot; 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="pip install *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="python &quot;D:\Документы\информатика\python\Программы Python\инжинириум\generate_sounds.py&quot;" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="python -c &quot;import pygame; print(pygame.ver)&quot;" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="cd *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="chcp 65001 &gt; nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="python test_imports.py" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del test_imports.py test_setup.py" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del /f test_imports.py test_setup.py leaderboard.db 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del /f assets\leaderboard.db 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git status" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="echo *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git log *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git add *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git rm *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git commit *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="del /f .git\index.lock 2&gt;nul" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="git remote *" />
+        </Execute>
+      </list>
+    </option>
+  </component>
+</project>
